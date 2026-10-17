@@ -1,0 +1,113 @@
+{
+  "theme": "Light",
+  "archetype": "Archetype 3 (Pastel & Soft) mixed with Neo-Brutalist High-Contrast",
+  "mood": "Optimistic, tactile, gamified, clear hierarchy",
+  "typography": {
+    "headings": {
+      "font_family": "Outfit",
+      "import_url": "https://fonts.googleapis.com/css2?family=Outfit:wght@400;500;700;900&display=swap",
+      "h1": "text-4xl sm:text-5xl lg:text-6xl font-black tracking-tighter",
+      "h2": "text-2xl sm:text-3xl lg:text-4xl font-bold tracking-tight",
+      "h3": "text-xl sm:text-2xl font-bold tracking-tight"
+    },
+    "body": {
+      "font_family": "Manrope",
+      "import_url": "https://fonts.googleapis.com/css2?family=Manrope:wght@400;500;600&display=swap",
+      "base": "text-base font-medium leading-relaxed",
+      "small": "text-sm font-medium",
+      "labels": "text-xs font-bold uppercase tracking-[0.2em]"
+    }
+  },
+  "colors": {
+    "background": "#FAFAF9",
+    "surface": "#FFFFFF",
+    "primary": "#6366F1",
+    "primary_hover": "#4F46E5",
+    "text_main": "#0F172A",
+    "text_muted": "#475569",
+    "border": "#0F172A",
+    "pastels": {
+      "lavender": "#E0E7FF",
+      "mint": "#D1FAE5",
+      "butter": "#FEF3C7",
+      "peach": "#FFEDD5"
+    },
+    "gamification_tiers": {
+      "bronze": "#D97706",
+      "silver": "#94A3B8",
+      "gold": "#EAB308",
+      "platinum": "#8B5CF6"
+    }
+  },
+  "layout_spacing": {
+    "container_padding": "p-6 md:p-8 lg:p-12",
+    "grid_dashboard": "grid grid-cols-1 md:grid-cols-3 lg:grid-cols-4 gap-6",
+    "card_style": "bg-white border-2 border-[#0F172A] rounded-xl shadow-[4px_4px_0px_0px_rgba(15,23,42,1)] overflow-hidden",
+    "bento_grid": "grid grid-cols-1 md:grid-cols-8 lg:grid-cols-12 gap-6"
+  },
+  "components": {
+    "buttons": {
+      "primary": "bg-[#6366F1] text-white font-bold py-3 px-6 rounded-xl border-2 border-[#0F172A] shadow-[4px_4px_0px_0px_rgba(15,23,42,1)] hover:bg-[#4F46E5] active:translate-y-1 active:shadow-none transition-all",
+      "secondary": "bg-white text-[#0F172A] font-bold py-3 px-6 rounded-xl border-2 border-[#0F172A] shadow-[4px_4px_0px_0px_rgba(15,23,42,1)] hover:bg-slate-50 active:translate-y-1 active:shadow-none transition-all"
+    },
+    "inputs": "bg-white border-2 border-[#0F172A] rounded-xl px-4 py-3 focus:outline-none focus:ring-4 focus:ring-indigo-100 transition-all font-medium text-[#0F172A] placeholder-slate-400",
+    "badges": "px-3 py-1 rounded-full text-xs font-bold uppercase tracking-wider border-2 border-[#0F172A]",
+    "navigation": "bg-white border-b-2 border-[#0F172A] px-6 py-4 flex items-center justify-between sticky top-0 z-50"
+  },
+  "motion": {
+    "hover": "transition-transform duration-200 ease-out",
+    "active": "active:translate-y-1 active:shadow-none",
+    "list_stagger": "framer-motion staggered fade-in up"
+  },
+  "media_assets": {
+    "backgrounds": [
+      {
+        "url": "https://images.unsplash.com/photo-1774995598333-2bc84c643674?crop=entropy&cs=srgb&fm=jpg&ixid=M3w3NTY2NzV8MHwxfHNlYXJjaHwxfHxtb2Rlcm4lMjBhYnN0cmFjdCUyMGNvbG9yZnVsJTIwYmFja2dyb3VuZHxlbnwwfHx8fDE3NzYxNzMyMzd8MA&ixlib=rb-4.1.0&q=85",
+        "description": "Abstract pastel waves, use for login/signup backgrounds with 50% opacity white overlay"
+      }
+    ],
+    "avatars": [
+      {
+        "url": "https://images.unsplash.com/photo-1746689052376-8525f3f498fa?crop=entropy&cs=srgb&fm=jpg&ixid=M3w4NjA1NzR8MHwxfHNlYXJjaHwxfHx0ZWFjaGVyJTIwc21pbGluZ3xlbnwwfHx8fDE3NzYxNzMyMzd8MA&ixlib=rb-4.1.0&q=85",
+        "category": "teacher_avatar"
+      },
+      {
+        "url": "https://images.unsplash.com/photo-1620829813573-7c9e1877706f?crop=entropy&cs=srgb&fm=jpg&ixid=M3w4NjY2NjV8MHwxfHNlYXJjaHwzfHxzdHVkZW50JTIwc3R1ZHlpbmclMjBsYXB0b3B8ZW58MHx8fHwxNzc2MTczMjI1fDA&ixlib=rb-4.1.0&q=85",
+        "category": "student_avatar"
+      }
+    ],
+    "course_covers": [
+      {
+        "url": "https://images.unsplash.com/photo-1758612214917-81d7956c09de?crop=entropy&cs=srgb&fm=jpg&ixid=M3w4NjY2NjV8MHwxfHNlYXJjaHw0fHxzdHVkZW50JTIwc3R1ZHlpbmclMjBsYXB0b3B8ZW58MHx8fHwxNzc2MTczMjI1fDA&ixlib=rb-4.1.0&q=85",
+        "category": "course_thumbnail"
+      },
+      {
+        "url": "https://images.pexels.com/photos/7092524/pexels-photo-7092524.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+        "category": "course_thumbnail"
+      }
+    ],
+    "gamification": [
+      {
+        "url": "https://images.unsplash.com/photo-1706374503312-7a4a4c030d2d?crop=entropy&cs=srgb&fm=jpg&ixid=M3w3NTY2OTF8MHwxfHNlYXJjaHwxfHxnb2xkJTIwbWVkYWx8ZW58MHx8fHwxNzc2MTczMjM3fDA&ixlib=rb-4.1.0&q=85",
+        "category": "gold_medal_badge"
+      }
+    ]
+  },
+  "icons": {
+    "library": "lucide-react",
+    "stroke_width": 2.5,
+    "size_default": 24
+  },
+  "testing": {
+    "data_testid_convention": "kebab-case, role-based. Example: data-testid='login-form-submit-button', data-testid='course-card-123', data-testid='poll-vote-button'"
+  },
+  "instructions_to_main_agent": [
+    "Use Node.js purely as ECMAScript Modules (type: 'module').",
+    "Frontend MUST be built using React + TailwindCSS + Shadcn/UI primitives. Customize Shadcn primitives strictly using the defined Neo-brutalist card_style and button properties.",
+    "Do NOT use 'Inter' font. Import and use 'Outfit' for headings and 'Manrope' for body text.",
+    "Bento grid pattern is MANDATORY for all dashboard views. Use the 'Grid Layout Technical Rules' where grid items are direct children.",
+    "Gamification features (Leaderboard, Points, Tiers) must use the specific 'gamification_tiers' hex codes.",
+    "Apply `data-testid` to all interactive elements, buttons, links, and forms as outlined in the testing conventions.",
+    "Use Socket.io for all real-time events (Polling, Leaderboard updates, WebRTC signaling)."
+  ]
+}

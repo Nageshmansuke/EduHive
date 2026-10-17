@@ -1,0 +1,2 @@
+Placeholder for "Lecture 1" video recording of Modern Web Development.
+Replace this file with a real upload via the Teacher Courses page to test video playback.
